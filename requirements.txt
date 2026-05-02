@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy<2
+torch
+torchvision
+torchaudio
+opencv-python
+Pillow
+av
+num2words
+accelerate
+sentencepiece
+protobuf
+jupyter
+ipykernel
+git+https://github.com/huggingface/transformers@v4.49.0-SmolVLM-2
+git+https://github.com/line/lighthouse.git
+
