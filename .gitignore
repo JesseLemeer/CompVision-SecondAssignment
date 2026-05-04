@@ -1,5 +1,15 @@
+# Virtual environment
+cv_env/
 .venv/
+
+# Python
 __pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Models / checkpoints
 *.ckpt
 *.pkl
+
