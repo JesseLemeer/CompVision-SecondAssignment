@@ -1,0 +1,24 @@
+Model: HuggingFaceTB/SmolVLM2-256M-Video-Instruct
+
+Video 5
+Prompt given:  
+Describe the most unique actions in this video segment in one concise sentence. Focus on what is happening and who might be involved. 
+
+Chunk Length: 15
+Max Tokens used (per Chunk): 128
+Number of Frames (per Chunk): 10
+Threshold: 0.5
+Precision: 0.250
+Recall:    0.154
+F1-score:  0.190
+
+===
+
+Predicted event 0: A man in a white shirt stands in front of a GMC logo and says "Replacing Your Tires."
+Predicted event 1: A man is working on a car tire, using a tool to remove the tire
+Predicted event 2: A hand holding a metal rod with a needle attached to it
+Predicted event 3: A person is holding a coin and explaining something about it
+Predicted event 4: A person is using a tool to remove a wheel from a truck
+Predicted event 5: A person is standing next to a car with a tire on it
+Predicted event 6: A man in a white shirt is shaking hands with another person in a black shirt
+Predicted event 7: A man in a white shirt stands in front of a GMC logo and says "GMC Certified Service" and "Replacing Your Tires."
