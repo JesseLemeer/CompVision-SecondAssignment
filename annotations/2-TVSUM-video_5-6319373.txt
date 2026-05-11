@@ -1,9 +1,13 @@
-Branding screen of GMC's tire replacement service, 00:00 - 00:04, 0 
+Branding start screen of GMC's tire replacement service, 00:00 - 00:04, 0 
 Person talking in front of a GMC car, 00:05 - 00:17, 0
 Technician working on a car tire, 00:18 - 00:24, 1 
-Comparison of a tire with a good and bad thread, 00:32 - 00:37, 2
+Comparison of a tire with a good and bad tread, 00:32 - 00:37, 2
 Displayed text recommending tire rotation every 7500 miles, 00:38 - 00:43, 2 
 Demonstration of checking tire tread depth using a tool and a coin, 00:44 - 00:58, 2
 Tire spinning while mounted, 01:08 - 01:16, 1 
 People interacting near a car, 01:34 - 01:36, -1
-Branding screen of GMC's tire replacement service, 01:47 - 01:50, 0
+Branding end screen of GMC's tire replacement service, 01:47 – 01:50, 0
+
+
+
+

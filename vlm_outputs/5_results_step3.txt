@@ -1,0 +1,53 @@
+Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 5
+Prompt given:
+
+Describe all the key events in the video.
+Do not repeat events.
+
+Chunk Length: 111
+Max Tokens used (per Chunk): 800
+Number of Chunks: 1
+Number of Frames (per Chunk): 32
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.625
+Recall:    0.556
+F1-score:  0.588
+Hallucinated events number: 3
+Correctly predicted events number: 5
+Missed out events number: 4
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video begins with a title screen displaying GMC Certified Service and Replacing Your Tires
+Predicted event 1: It transitions to a man in a white shirt with the GMC logo standing in front of a dark blue background with a GMC truck
+Predicted event 2: The man, identified as Dave Campbell, provides information about GMC certified service
+Predicted event 3: The scene then shifts to a man in a black shirt working on a vehicle, with the text GMC Certified Service and Dave Campbell appearing on the screen
+Predicted event 4: The video continues with a close-up of a tire being rotated, followed by a comparison of good and bad tire treads
+Predicted event 5: The video emphasizes the importance of rotating tires every 7,500 miles
+Predicted event 6: The final segment shows a man in a white shirt standing in front of a dark blue background with a GMC truck, with the text GMC Certified Service and gmccertifiedservice.com appearing on the screen
+Predicted event 7: The video concludes with a title screen displaying GMC Certified Service and Replacing Your Tires
+
+=== MISSED EVENTS ===
+Missed event 2: Technician working on a car tire
+Missed event 5: Demonstration of checking tire tread depth using a tool and a coin
+Missed event 6: Tire spinning while mounted
+Missed event 7: People interacting near a car
+
+=== MATCHED EVENTS ===
+Matched GT event 0: Branding start screen of GMC's tire replacement service
+    Predicted: The video begins with a title screen displaying GMC Certified Service and Replacing Your Tires
+    Similarity score: 0.708
+Matched GT event 1: Person talking in front of a GMC car
+    Predicted: The final segment shows a man in a white shirt standing in front of a dark blue background with a GMC truck, with the text GMC Certified Service and gmccertifiedservice.com appearing on the screen
+    Similarity score: 0.553
+Matched GT event 3: Comparison of a tire with a good and bad tread
+    Predicted: The video continues with a close-up of a tire being rotated, followed by a comparison of good and bad tire treads
+    Similarity score: 0.671
+Matched GT event 4: Displayed text recommending tire rotation every 7500 miles
+    Predicted: The video emphasizes the importance of rotating tires every 7,500 miles
+    Similarity score: 0.656
+Matched GT event 8: Branding end screen of GMC's tire replacement service
+    Predicted: The video concludes with a title screen displaying GMC Certified Service and Replacing Your Tires
+    Similarity score: 0.712
