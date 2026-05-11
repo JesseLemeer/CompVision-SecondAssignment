@@ -1,7 +1,6 @@
-Video 5 retrieval-based summary (6 moments, model=Moment-DETR, query_strategy=screen_text):
-1. 00:00 - 00:06: The video concludes with a title screen displaying "GMC Certified Service" and "Replacing Your Tires
-2. 00:01 - 00:52: The final segment shows a man in a white shirt standing in front of a dark blue background with a GMC truck, with the text "GMC Certified Service" and "gmccertifiedservice.com" appearing on the screen
-3. 00:47 - 01:03: The video continues with a close-up of a tire being rotated, followed by a comparison of good and bad tire treads
-4. 00:58 - 01:17: The man, identified as Dave Campbell, provides information about GMC certified service
-5. 01:28 - 01:45: The final segment shows a man in a white shirt standing in front of a dark blue background with a GMC truck, with the text "GMC Certified Service" and "gmccertifiedservice.com" appearing on the screen
-6. 01:47 - 01:51: The man, identified as Dave Campbell, provides information about GMC certified service
+Video 5 retrieval-based summary (5 moments, model=CG-DETR, query_strategy=the_video_shows):
+1. 00:03 - 00:20: The final segment shows a man in a white shirt standing in front of a dark blue background with a GMC truck, with the text "GMC Certified Service" and "gmccertifiedservice.com" appearing on the screen
+2. 00:30 - 00:47: The video concludes with a title screen displaying "GMC Certified Service" and "Replacing Your Tires
+3. 00:54 - 01:01: The video emphasizes the importance of rotating tires every 7,500 miles
+4. 01:07 - 01:18: The video continues with a close-up of a tire being rotated, followed by a comparison of good and bad tire treads
+5. 01:24 - 01:33: The video begins with a title screen displaying "GMC Certified Service" and "Replacing Your Tires." It transitions to a man in a white shirt with the GMC logo standing in front of a dark blue background with a GMC truck
