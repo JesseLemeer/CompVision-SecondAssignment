@@ -1,0 +1,9 @@
+A car and four people in the snow with two of them holding shovels, 00:00 - 00:05, 1
+People and a dog walk through the snow next to a field until they arrive at another car, 00:26 - 01:30, 0
+The car is stuck in the snow, 01:37 - 01:55, 2
+A kid is trying to push a car but it remains at rest, 02:12 - 02:33, 2
+Four people and a dog walk back to a different car, 02:37 - 03:05, 0
+Everyone gets into a car, 03:23 - 03:45, -1
+A car is started and put into first gear, 03:54 - 04:00, -2
+People in a car drive through a field, 04:06 - 05:14, 2
+A car drives on a road, 5:19 - 05:26, 0
