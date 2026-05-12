@@ -1,0 +1,142 @@
+
+ Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 8
+
+Annotation file: 2-TVSUM-video_8_6328583.txt
+Prompt given:
+
+Describe all the key events in the video. 
+Keep sentences short.
+Do not repeat  events.
+
+Chunk Length: 109
+Max Tokens used (per Chunk): 128
+Number of Chunks: 3
+Number of Frames (per Chunk): 16
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.080
+Recall:    0.222
+F1-score:  0.118
+Hallucinated events number: 23
+Correctly predicted events number: 2
+Missed out events number: 7
+
+=== PREDICTED EVENTS ===
+Predicted event 0: A group of people are standing in a snowy field, talking to each other
+Predicted event 1: One person is holding a shovel
+Predicted event 2: They are trying to push a car out of the snow
+Predicted event 3: The car is stuck in the snow
+Predicted event 4: The people are trying to get the car out of the snow
+Predicted event 5: A person is driving a car through a snowy landscape
+Predicted event 6: The car is moving slowly, and the person is wearing a red hat
+Predicted event 7: The person is also wearing a black jacket
+Predicted event 8: The car is driving on a snowy road, and the person is looking out the window
+Predicted event 9: The person is also wearing a black jacket and a red hat
+Predicted event 10: The person is driving a car through a snowy landscape
+Predicted event 11: The car is moving slowly, and the person is wearing a red hat
+Predicted event 12: The person is also wearing a black jacket
+Predicted event 13: The car is driving on a snowy road, and the person is looking out the window
+Predicted event 14: The person is also wearing a black jacket and
+Predicted event 15: A person is driving a car through a snowy landscape
+Predicted event 16: The car is moving at a high speed, and the driver is holding a steering wheel
+Predicted event 17: The driver is wearing a black jacket and a black beanie
+Predicted event 18: The car is driving on a road with snow on the sides
+Predicted event 19: The driver is also wearing a black scarf
+Predicted event 20: The car is driving through a snowy field with trees in the background
+Predicted event 21: The driver is also wearing a black jacket and a black beanie
+Predicted event 22: The car is driving on a road with snow on the sides
+Predicted event 23: The driver is also wearing a black scarf
+Predicted event 24: The car is driving through a snowy field with trees in the
+
+=== MISSED EVENTS ===
+Missed event 1: The people and a dog walk through the snow next to a field until they arrive at another car
+Missed event 3: A kid is trying to push the car but it remains at rest
+Missed event 4: The four people and the dog walk back to the other car
+Missed event 5: Everyone gets into the car
+Missed event 6: The cameraman starts the car and puts it into the first gear
+Missed event 7: They drive through the field while someone films the people in the car
+Missed event 8: They drive on a road
+
+=== MATCHED EVENTS ===
+Matched GT event 0: The cameraman films a car and four people in the snow with two of them holding shovels
+    Predicted: The people are trying to get the car out of the snow
+    Similarity score: 0.599
+Matched GT event 2: The cameraman shows this car is stuck in the snow
+    Predicted: The car is stuck in the snow
+    Similarity score: 0.791
+
+ Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 8
+Annotation file: 2-TVSUM-video_8-6310489.txt
+
+Prompt given:
+
+Describe all the key events in the video. 
+Keep sentences short.
+Do not repeat  events.
+
+Chunk Length: 109
+Max Tokens used (per Chunk): 128
+Number of Chunks: 3
+Number of Frames (per Chunk): 16
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.200
+Recall:    0.556
+F1-score:  0.294
+Hallucinated events number: 20
+Correctly predicted events number: 5
+Missed out events number: 4
+
+=== PREDICTED EVENTS ===
+Predicted event 0: A group of people are standing in a snowy field, talking to each other
+Predicted event 1: One person is holding a shovel
+Predicted event 2: They are trying to push a car out of the snow
+Predicted event 3: The car is stuck in the snow
+Predicted event 4: The people are trying to get the car out of the snow
+Predicted event 5: A person is driving a car through a snowy landscape
+Predicted event 6: The car is moving slowly, and the person is wearing a red hat
+Predicted event 7: The person is also wearing a black jacket
+Predicted event 8: The car is driving on a snowy road, and the person is looking out the window
+Predicted event 9: The person is also wearing a black jacket and a red hat
+Predicted event 10: The person is driving a car through a snowy landscape
+Predicted event 11: The car is moving slowly, and the person is wearing a red hat
+Predicted event 12: The person is also wearing a black jacket
+Predicted event 13: The car is driving on a snowy road, and the person is looking out the window
+Predicted event 14: The person is also wearing a black jacket and
+Predicted event 15: A person is driving a car through a snowy landscape
+Predicted event 16: The car is moving at a high speed, and the driver is holding a steering wheel
+Predicted event 17: The driver is wearing a black jacket and a black beanie
+Predicted event 18: The car is driving on a road with snow on the sides
+Predicted event 19: The driver is also wearing a black scarf
+Predicted event 20: The car is driving through a snowy field with trees in the background
+Predicted event 21: The driver is also wearing a black jacket and a black beanie
+Predicted event 22: The car is driving on a road with snow on the sides
+Predicted event 23: The driver is also wearing a black scarf
+Predicted event 24: The car is driving through a snowy field with trees in the
+
+=== MISSED EVENTS ===
+Missed event 1: People wearing hoodies and a dog are walking towards a tree
+Missed event 4: The video shows a kid wearing a yellow jacket
+Missed event 5: The video shows a dog walking on the snow surrounded by trees
+Missed event 6: The video shows a person turning a car on using keys
+
+=== MATCHED EVENTS ===
+Matched GT event 0: People wearing winter clothes and holding shovels are shown in a snowy scenery
+    Predicted: A group of people are standing in a snowy field, talking to each other
+    Similarity score: 0.534
+Matched GT event 2: The video shows a car stuck in snow and surrounded by trees
+    Predicted: The car is stuck in the snow
+    Similarity score: 0.663
+Matched GT event 3: A woman with black hair and a person wearing a red full-face scarf
+    Predicted: The person is also wearing a black jacket and a red hat
+    Similarity score: 0.536
+Matched GT event 7: The video shows people inside of a car driving through a snowy field
+    Predicted: The car is driving through a snowy field with trees in the background
+    Similarity score: 0.710
+Matched GT event 8: The video shows people inside of a car driving through a snowy road
+    Predicted: The car is driving on a snowy road, and the person is looking out the window
+    Similarity score: 0.717
