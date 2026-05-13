@@ -1,0 +1,137 @@
+Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 7
+Prompt given:
+
+Describe all the key events in the video.
+Do not repeat events.
+
+Chunk Length: 148
+Max Tokens used (per Chunk): 500
+Number of Chunks: 1
+Number of Frames (per Chunk): 32
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.107
+Recall:    0.333
+F1-score:  0.162
+Hallucinated events number: 25
+Correctly predicted events number: 3
+Missed out events number: 6
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video begins with a news report about a train hitting a red car on a highway in Douglasville, Douglas County
+Predicted event 1: The scene shows a train on the tracks, a red car on the road, and a police car nearby
+Predicted event 2: The report includes a map showing the location of the incident and a live report from a reporter in the area
+Predicted event 3: The reporter, Steve Kiggins, provides live updates on the situation
+Predicted event 4: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 5: The reporter is wearing a dark jacket and an orange tie
+Predicted event 6: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 7: The reporter provides live updates on the situation
+Predicted event 8: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 9: The scene shows a person in a yellow vest standing near the train tracks
+Predicted event 10: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 11: The reporter is wearing a dark jacket and an orange tie
+Predicted event 12: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 13: The reporter provides live updates on the situation
+Predicted event 14: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 15: The scene shows a person in a yellow vest standing near the train tracks
+Predicted event 16: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 17: The reporter is wearing a dark jacket and an orange tie
+Predicted event 18: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 19: The reporter provides live updates on the situation
+Predicted event 20: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 21: The scene shows a person in a yellow vest standing near the train tracks
+Predicted event 22: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 23: The reporter is wearing a dark jacket and an orange tie
+Predicted event 24: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 25: The reporter provides live updates on the situation
+Predicted event 26: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 27: The scene shows a person in a yellow vest standing near the
+
+=== MISSED EVENTS ===
+Missed event 1: A map shows where specifically a train hit a car in Douglasville namely E Broad St at Mozleys St
+Missed event 3: Something is explained about a railway crossing by Robert Woods who lives near it
+Missed event 5: Closer view of a road at a railway crossing
+Missed event 6: A damaged car is being removed
+Missed event 7: A damaged car is being removed
+Missed event 8: Field reporter Steve Kiggins reports live from train tracks
+
+=== MATCHED EVENTS ===
+Matched GT event 0: Aerial footage shows a train hit a red car in Douglasville in Douglas County
+    Predicted: The video begins with a news report about a train hitting a red car on a highway in Douglasville, Douglas County
+    Similarity score: 0.890
+Matched GT event 2: Field reporter Steve Kiggins reports live from train tracks
+    Predicted: The reporter, Steve Kiggins, provides live updates on the situation
+    Similarity score: 0.710
+Matched GT event 4: Closer view of a red car hit by a train
+    Predicted: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+    Similarity score: 0.759Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 7
+Prompt given:
+
+Describe all the key events in the video.
+Do not repeat events.
+
+Chunk Length: 148
+Max Tokens used (per Chunk): 500
+Number of Chunks: 1
+Number of Frames (per Chunk): 32
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.107
+Recall:    0.333
+F1-score:  0.162
+Hallucinated events number: 25
+Correctly predicted events number: 3
+Missed out events number: 6
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video begins with a news report about a train hitting a red car on a highway in Douglasville, Douglas County
+Predicted event 1: The scene shows a train on the tracks, a red car on the road, and a police car nearby
+Predicted event 2: The report includes a map showing the location of the incident and a live report from a reporter in the area
+Predicted event 3: The reporter, Steve Kiggins, provides live updates on the situation
+Predicted event 4: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 5: The reporter is wearing a dark jacket and an orange tie
+Predicted event 6: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 7: The reporter provides live updates on the situation
+Predicted event 8: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 9: The scene shows a person in a yellow vest standing near the train tracks
+Predicted event 10: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 11: The reporter is wearing a dark jacket and an orange tie
+Predicted event 12: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 13: The reporter provides live updates on the situation
+Predicted event 14: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 15: The scene shows a person in a yellow vest standing near the train tracks
+Predicted event 16: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 17: The reporter is wearing a dark jacket and an orange tie
+Predicted event 18: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 19: The reporter provides live updates on the situation
+Predicted event 20: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 21: The scene shows a person in a yellow vest standing near the train tracks
+Predicted event 22: The video continues with a live report from the reporter, who is standing on the side of the road at night
+Predicted event 23: The reporter is wearing a dark jacket and an orange tie
+Predicted event 24: The scene shows a red car on the road, a train on the tracks, and a police car nearby
+Predicted event 25: The reporter provides live updates on the situation
+Predicted event 26: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+Predicted event 27: The scene shows a person in a yellow vest standing near the
+
+=== MISSED EVENTS ===
+Missed event 1: A map shows where specifically a train hit a car in Douglasville namely E Broad St at Mozleys St
+Missed event 3: Something is explained about a railway crossing by Robert Woods who lives near it
+Missed event 5: Closer view of a road at a railway crossing
+Missed event 6: A damaged car is being removed
+Missed event 7: A damaged car is being removed
+Missed event 8: Field reporter Steve Kiggins reports live from train tracks
+
+=== MATCHED EVENTS ===
+Matched GT event 0: Aerial footage shows a train hit a red car in Douglasville in Douglas County
+    Predicted: The video begins with a news report about a train hitting a red car on a highway in Douglasville, Douglas County
+    Similarity score: 0.890
+Matched GT event 2: Field reporter Steve Kiggins reports live from train tracks
+    Predicted: The reporter, Steve Kiggins, provides live updates on the situation
+    Similarity score: 0.710
+Matched GT event 4: Closer view of a red car hit by a train
+    Predicted: The video then shows a close-up of a red car on the road, with a train on the tracks nearby
+    Similarity score: 0.759
