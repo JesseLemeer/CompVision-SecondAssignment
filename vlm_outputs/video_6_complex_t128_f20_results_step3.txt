@@ -1,0 +1,71 @@
+Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 6
+Prompt given:
+
+Describe all the key events in the video. Omit background noise, like clours etc. Do not repeat events. 
+
+Chunk Length: 107
+Max Tokens used (per Chunk): 128
+Number of Chunks: 3
+Number of Frames (per Chunk): 20
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.381
+Recall:    0.889
+F1-score:  0.533
+Hallucinated events number: 13
+Correctly predicted events number: 8
+Missed out events number: 1
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video begins with a view of a wooden patio area, featuring a table and chairs
+Predicted event 1: The camera then pans to reveal a dirt path leading to a forested area
+Predicted event 2: A white RV is parked on the path, and the camera follows it as it moves deeper into the forest
+Predicted event 3: The RV is eventually parked near a tree, and the camera captures the surrounding forest and the RV's details
+Predicted event 4: The video continues with the RV parked on the dirt path, surrounded by trees and foliage
+Predicted event 5: The camera then pans to show the RV's side, revealing its white and blue exterior
+Predicted event 6: The camera follows the RV as it moves along the path, passing by
+Predicted event 7: The video begins with a view of a blue and white truck parked in a forest
+Predicted event 8: The truck is surrounded by tall trees and appears to be stuck in the dirt
+Predicted event 9: A person in a black shirt is seen standing near the truck, observing the situation
+Predicted event 10: The scene then shifts to a close-up of a sign that reads PLEASE DRIVE SAFELY with a logo that says TWL TRUCK PARIS ALGORITHM
+Predicted event 11: The truck is still stuck in the dirt, and the person in the black shirt is seen standing near the truck, observing the situation
+Predicted event 12: The video then shows a person in a blue
+Predicted event 13: The video begins with a view of a large truck parked in a wooded area
+Predicted event 14: The truck is white and blue, and it is surrounded by tall trees
+Predicted event 15: The sun is shining through the trees, creating a dappled light effect on the ground
+Predicted event 16: A group of people are gathered around the truck, and they appear to be discussing something
+Predicted event 17: One person is wearing an orange shirt and is standing near the truck
+Predicted event 18: The scene then shifts to a close-up of the truck's rear, showing the back of the truck and the rear lights
+Predicted event 19: The truck is parked on a dirt road, and the surrounding area is dense with trees
+Predicted event 20: The video
+
+=== MISSED EVENTS ===
+Missed event 6: The palfinger crane picking up the stuck truck
+
+=== MATCHED EVENTS ===
+Matched GT event 0: The cameraman shows off patio with tables and chairs
+    Predicted: The video begins with a view of a wooden patio area, featuring a table and chairs
+    Similarity score: 0.701
+Matched GT event 1: The cameraman shows stuck truck
+    Predicted: The truck is still stuck in the dirt, and the person in the black shirt is seen standing near the truck, observing the situation
+    Similarity score: 0.599
+Matched GT event 2: The cameraman shows the rope and the tree that are keeping the truck secure
+    Predicted: The RV is eventually parked near a tree, and the camera captures the surrounding forest and the RV's details
+    Similarity score: 0.616
+Matched GT event 3: The cameraman shows the steep ravine which the truck was about to fall in
+    Predicted: The video begins with a view of a large truck parked in a wooded area
+    Similarity score: 0.572
+Matched GT event 4: The second truck reversing close to the stuck truck
+    Predicted: The scene then shifts to a close-up of the truck's rear, showing the back of the truck and the rear lights
+    Similarity score: 0.590
+Matched GT event 5: The cameraman shows a "drive safe" sign
+    Predicted: The scene then shifts to a close-up of a sign that reads PLEASE DRIVE SAFELY with a logo that says TWL TRUCK PARIS ALGORITHM
+    Similarity score: 0.529
+Matched GT event 7: The truck moves on the road
+    Predicted: The truck is parked on a dirt road, and the surrounding area is dense with trees
+    Similarity score: 0.635
+Matched GT event 8: Both trucks driving off in the distance
+    Predicted: The truck is white and blue, and it is surrounded by tall trees
+    Similarity score: 0.506

@@ -1,0 +1,72 @@
+Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 6
+Prompt given:
+
+Describe all the key events in the video. Do not repeat events.
+
+Chunk Length: 107
+Max Tokens used (per Chunk): 180
+Number of Chunks: 3
+Number of Frames (per Chunk): 20
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.231
+Recall:    0.667
+F1-score:  0.343
+Hallucinated events number: 20
+Correctly predicted events number: 6
+Missed out events number: 3
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video begins with a view of a wooden patio area, featuring a table and chairs, set against a backdrop of a hillside covered in grass and trees
+Predicted event 1: The camera then pans to reveal a white RV parked on a gravel road, surrounded by dense foliage
+Predicted event 2: The RV is secured with a yellow rope tied to a tree
+Predicted event 3: The camera moves closer to the RV, showing its side and rear, before panning back to the patio area
+Predicted event 4: The video continues with a view of the RV, now stationary, with the camera capturing the surrounding trees and the gravel road
+Predicted event 5: The RV is secured with a yellow rope tied to a tree
+Predicted event 6: The camera then pans to reveal a white truck parked on a gravel road, surrounded by dense foliage
+Predicted event 7: The truck is secured with a yellow rope tied to a tree
+Predicted event 8: The camera moves closer to the truck, showing its side and rear, before panning back to the
+Predicted event 9: The video begins with a view of a blue and white truck parked in a forest, surrounded by tall trees and sunlight filtering through the leaves
+Predicted event 10: The truck is tilted to the side, and the camera angle is low, giving a perspective from the ground looking up at the truck
+Predicted event 11: The scene then shifts to the truck being driven on a dirt road, with the camera following it as it moves through the forest
+Predicted event 12: The truck is seen from various angles, including a front view and a side view, as it navigates the winding road
+Predicted event 13: The forest remains consistent throughout, with tall trees and sunlight filtering through the leaves
+Predicted event 14: The truck eventually comes to a stop, and a person in a dark shirt and shorts appears, standing next to the truck
+Predicted event 15: The person appears to be inspecting the truck, and the camera follows their movements as they walk around the truck
+Predicted event 16: The video concludes with the person standing next to the truck
+Predicted event 17: The video begins with a view of a large truck parked in a wooded area, surrounded by tall trees and dense foliage
+Predicted event 18: The truck is white with a blue stripe and has a large crane attached to its back
+Predicted event 19: The scene is bathed in natural light, with the sun shining through the trees, casting a warm glow over the scene
+Predicted event 20: As the video progresses, the truck begins to move slowly down a dirt road, surrounded by tall trees and dense foliage
+Predicted event 21: The camera follows the truck as it moves, capturing the surrounding environment and the movement of the truck
+Predicted event 22: The truck continues to move down the road, passing by a group of people standing near a tree
+Predicted event 23: The people appear to be observing the truck as it passes by
+Predicted event 24: The truck eventually comes to a stop at the end of the road, where a person in an orange shirt is seen standing near the truck
+Predicted event 25: The truck
+
+=== MISSED EVENTS ===
+Missed event 5: The cameraman shows a "drive safe" sign
+Missed event 7: The truck moves on the road
+Missed event 8: Both trucks driving off in the distance
+
+=== MATCHED EVENTS ===
+Matched GT event 0: The cameraman shows off patio with tables and chairs
+    Predicted: The video begins with a view of a wooden patio area, featuring a table and chairs, set against a backdrop of a hillside covered in grass and trees
+    Similarity score: 0.633
+Matched GT event 1: The cameraman shows stuck truck
+    Predicted: The camera follows the truck as it moves, capturing the surrounding environment and the movement of the truck
+    Similarity score: 0.687
+Matched GT event 2: The cameraman shows the rope and the tree that are keeping the truck secure
+    Predicted: The truck is secured with a yellow rope tied to a tree
+    Similarity score: 0.752
+Matched GT event 3: The cameraman shows the steep ravine which the truck was about to fall in
+    Predicted: The truck is tilted to the side, and the camera angle is low, giving a perspective from the ground looking up at the truck
+    Similarity score: 0.621
+Matched GT event 4: The second truck reversing close to the stuck truck
+    Predicted: The truck
+    Similarity score: 0.601
+Matched GT event 6: The palfinger crane picking up the stuck truck
+    Predicted: The truck is white with a blue stripe and has a large crane attached to its back
+    Similarity score: 0.563
