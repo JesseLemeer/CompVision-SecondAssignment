@@ -1,0 +1,117 @@
+
+ Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Annotations Path: 2-TVSUM-video_8-6310489.txt
+Video: 8
+Prompt given:
+
+Describe all the key events in the video.
+Do not repeat events.
+
+Chunk Length: 109
+Max Tokens used (per Chunk): 150
+Number of Chunks: 3
+Number of Frames (per Chunk): 16
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.333
+Recall:    0.556
+F1-score:  0.417
+Hallucinated events number: 10
+Correctly predicted events number: 5
+Missed out events number: 4
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video depicts a group of people in winter clothing attempting to free a stuck car in a snowy area
+Predicted event 1: The car is partially buried in snow, and the group uses various tools, including shovels and a red tool, to try to remove the snow from around the vehicle
+Predicted event 2: The individuals are seen working together to clear the snow, with some standing on the ground and others using the tools to dig
+Predicted event 3: The scene is set in a wooded area with trees and bushes covered in snow, and the group appears to be focused on freeing the car
+Predicted event 4: The video shows the car being moved slowly and carefully, with the group working together to ensure it is not damaged
+Predicted event 5: The video begins with a close-up of a green car parked on a snowy road, with a person wearing a red hat and a black coat standing next to it
+Predicted event 6: The scene then transitions to a snowy landscape with a person wearing a black coat and a red hat standing in the snow
+Predicted event 7: The person is then seen walking away from the car, followed by another person wearing a black coat and a red hat
+Predicted event 8: The video then shows a close-up of a car's side mirror, followed by a view of a snowy road with a black dog walking on it
+Predicted event 9: The dog is then seen walking away from the camera, and the video ends with a view of a snowy landscape with trees and a fence
+Predicted event 10: The video begins with a view from inside a car, showing the interior and the outside through the windshield
+Predicted event 11: The car is driving on a snowy road, and the driver is using a tool to fix something on the car
+Predicted event 12: The camera then shifts to show the snowy landscape outside, with fields and trees visible
+Predicted event 13: The driver continues to work on the car, and the camera follows the car as it drives through the snowy landscape
+Predicted event 14: The video ends with a view from inside the car, showing the driver and another person in the back seat
+
+=== MISSED EVENTS ===
+Missed event 1: People wearing hoodies and a dog are walking towards a tree
+Missed event 3: A woman with black hair and a person wearing a red full-face scarf
+Missed event 4: The video shows a kid wearing a yellow jacket
+Missed event 8: The video shows people inside of a car driving through a snowy road
+
+=== MATCHED EVENTS ===
+Matched GT event 0: People wearing winter clothes and holding shovels are shown in a snowy scenery
+    Predicted: The individuals are seen working together to clear the snow, with some standing on the ground and others using the tools to dig
+    Similarity score: 0.685
+Matched GT event 2: The video shows a car stuck in snow and surrounded by trees
+    Predicted: The scene is set in a wooded area with trees and bushes covered in snow, and the group appears to be focused on freeing the car
+    Similarity score: 0.733
+Matched GT event 5: The video shows a dog walking on the snow surrounded by trees
+    Predicted: The dog is then seen walking away from the camera, and the video ends with a view of a snowy landscape with trees and a fence
+    Similarity score: 0.804
+Matched GT event 6: The video shows a person turning a car on using keys
+    Predicted: The video ends with a view from inside the car, showing the driver and another person in the back seat
+    Similarity score: 0.570
+Matched GT event 7: The video shows people inside of a car driving through a snowy field
+    Predicted: The video depicts a group of people in winter clothing attempting to free a stuck car in a snowy area
+    Similarity score: 0.742
+ Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Annotations Path: 2-TVSUM-video_8-6328583.txt
+Video: 8
+Prompt given:
+
+Describe all the key events in the video.
+Do not repeat events.
+
+Chunk Length: 109
+Max Tokens used (per Chunk): 150
+Number of Chunks: 3
+Number of Frames (per Chunk): 16
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.133
+Recall:    0.222
+F1-score:  0.167
+Hallucinated events number: 13
+Correctly predicted events number: 2
+Missed out events number: 7
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video depicts a group of people in winter clothing attempting to free a stuck car in a snowy area
+Predicted event 1: The car is partially buried in snow, and the group uses various tools, including shovels and a red tool, to try to remove the snow from around the vehicle
+Predicted event 2: The individuals are seen working together to clear the snow, with some standing on the ground and others using the tools to dig
+Predicted event 3: The scene is set in a wooded area with trees and bushes covered in snow, and the group appears to be focused on freeing the car
+Predicted event 4: The video shows the car being moved slowly and carefully, with the group working together to ensure it is not damaged
+Predicted event 5: The video begins with a close-up of a green car parked on a snowy road, with a person wearing a red hat and a black coat standing next to it
+Predicted event 6: The scene then transitions to a snowy landscape with a person wearing a black coat and a red hat standing in the snow
+Predicted event 7: The person is then seen walking away from the car, followed by another person wearing a black coat and a red hat
+Predicted event 8: The video then shows a close-up of a car's side mirror, followed by a view of a snowy road with a black dog walking on it
+Predicted event 9: The dog is then seen walking away from the camera, and the video ends with a view of a snowy landscape with trees and a fence
+Predicted event 10: The video begins with a view from inside a car, showing the interior and the outside through the windshield
+Predicted event 11: The car is driving on a snowy road, and the driver is using a tool to fix something on the car
+Predicted event 12: The camera then shifts to show the snowy landscape outside, with fields and trees visible
+Predicted event 13: The driver continues to work on the car, and the camera follows the car as it drives through the snowy landscape
+Predicted event 14: The video ends with a view from inside the car, showing the driver and another person in the back seat
+
+=== MISSED EVENTS ===
+Missed event 1: People and a dog walk through the snow next to a field until they arrive at another car
+Missed event 3: A kid is trying to push a car but it remains at rest
+Missed event 4: Four people and a dog walk back to a different car
+Missed event 5: Everyone gets into a car
+Missed event 6: A car is started and put into first gear
+Missed event 7: People in a car drive through a field
+Missed event 8: A car drives on a road
+
+=== MATCHED EVENTS ===
+Matched GT event 0: A car and four people in the snow with two of them holding shovels
+    Predicted: The car is partially buried in snow, and the group uses various tools, including shovels and a red tool, to try to remove the snow from around the vehicle
+    Similarity score: 0.712
+Matched GT event 2: The car is stuck in the snow
+    Predicted: The car is driving on a snowy road, and the driver is using a tool to fix something on the car
+    Similarity score: 0.646
