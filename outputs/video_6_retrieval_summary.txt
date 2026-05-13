@@ -1,0 +1,4 @@
+Video 6 retrieval-based summary (3 moments, model=CG-DETR, query_strategy=cleaned):
+1. 00:00 - 00:18: The video begins with a view of a wooden patio area, featuring a table and chairs, set against a backdrop of a hillside covered in grass and trees
+2. 00:28 - 01:46: The camera follows the truck as it moves, capturing the surrounding environment and the movement of the truck
+3. 03:46 - 04:25: The truck is white with a blue stripe and has a large crane attached to its back
