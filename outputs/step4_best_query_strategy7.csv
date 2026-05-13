@@ -1,0 +1,4 @@
+model,query_variant_strategy,video_id,queries,mean_top1_iou,mean_best_iou_at_k,recall_top1_iou_030,recall_at_k_iou_030,recall_at_k_iou_050
+CG-DETR,screen_text,7,4,0.2002069204351637,0.442774100099288,0.25,0.75,0.5
+Moment-DETR,screen_text,7,4,0.010508318910665629,0.28464501487772426,0.0,0.25,0.25
+QD-DETR,screen_text,7,4,0.0,0.2102467146066069,0.0,0.25,0.25
