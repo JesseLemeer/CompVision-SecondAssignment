@@ -1,0 +1,71 @@
+Model: HuggingFaceTB/SmolVLM2-2.2B-Instruct
+Video: 6
+Prompt given:
+
+Describe all the key events in the video.
+Do not repeat events.
+
+Chunk Length: 107
+Max Tokens used (per Chunk): 150
+Number of Chunks: 3
+Number of Frames (per Chunk): 16
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 0.400
+Recall:    0.889
+F1-score:  0.552
+Hallucinated events number: 12
+Correctly predicted events number: 8
+Missed out events number: 1
+
+=== PREDICTED EVENTS ===
+Predicted event 0: The video begins with a view of a wooden patio area, featuring a table and chairs, with a view of a wooded area in the background
+Predicted event 1: The camera then pans to reveal a white RV parked on a gravel road, with a sign on the side of the road
+Predicted event 2: The RV is surrounded by trees and bushes, and the camera captures the RV's rear, showing its license plate and a warning sign
+Predicted event 3: The RV is then shown driving down the gravel road, with the camera following its movement
+Predicted event 4: The video concludes with the RV driving away from the camera, leaving the wooded area behind
+Predicted event 5: The video begins with a view of a blue and white truck parked in a forest
+Predicted event 6: The truck is surrounded by tall trees and dense foliage, creating a secluded and natural setting
+Predicted event 7: The camera then pans to reveal the truck's front, showing its license plate and the word ISUZU on the side
+Predicted event 8: The truck is parked on a dirt road, surrounded by greenery and sunlight filtering through the trees
+Predicted event 9: As the video progresses, the camera moves closer to the truck, capturing more details of its front and side
+Predicted event 10: The truck's license plate is clearly visible, and the word ISUZU is still visible on the side
+Predicted event 11: The camera then pans to reveal the truck's rear, showing its license plate and the word
+Predicted event 12: The video begins with a view of a large truck parked in a wooded area
+Predicted event 13: The truck is white with a blue stripe and has a large crane attached to it
+Predicted event 14: The sun is shining through the trees, creating a dappled light effect on the ground
+Predicted event 15: A person in an orange shirt is standing near the truck, and another person in a blue shirt is walking away from the truck
+Predicted event 16: The scene then transitions to a view of the truck driving down a dirt road surrounded by trees
+Predicted event 17: The truck is now closer to the camera, and the sun is shining brightly through the trees
+Predicted event 18: The video continues with the truck driving down the road, surrounded by tall trees and dense foliage
+Predicted event 19: The sun is shining brightly through the trees, creating a dappled light
+
+=== MISSED EVENTS ===
+Missed event 8: Both trucks driving off in the distance
+
+=== MATCHED EVENTS ===
+Matched GT event 0: The cameraman shows off patio with tables and chairs
+    Predicted: The video begins with a view of a wooden patio area, featuring a table and chairs, with a view of a wooded area in the background
+    Similarity score: 0.638
+Matched GT event 1: The cameraman shows stuck truck
+    Predicted: The camera then pans to reveal the truck's rear, showing its license plate and the word
+    Similarity score: 0.661
+Matched GT event 2: The cameraman shows the rope and the tree that are keeping the truck secure
+    Predicted: The truck is now closer to the camera, and the sun is shining brightly through the trees
+    Similarity score: 0.596
+Matched GT event 3: The cameraman shows the steep ravine which the truck was about to fall in
+    Predicted: As the video progresses, the camera moves closer to the truck, capturing more details of its front and side
+    Similarity score: 0.623
+Matched GT event 4: The second truck reversing close to the stuck truck
+    Predicted: A person in an orange shirt is standing near the truck, and another person in a blue shirt is walking away from the truck
+    Similarity score: 0.514
+Matched GT event 5: The cameraman shows a "drive safe" sign
+    Predicted: The RV is surrounded by trees and bushes, and the camera captures the RV's rear, showing its license plate and a warning sign
+    Similarity score: 0.548
+Matched GT event 6: The palfinger crane picking up the stuck truck
+    Predicted: The truck is white with a blue stripe and has a large crane attached to it
+    Similarity score: 0.552
+Matched GT event 7: The truck moves on the road
+    Predicted: The truck is parked on a dirt road, surrounded by greenery and sunlight filtering through the trees
+    Similarity score: 0.667
