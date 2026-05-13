@@ -50,4 +50,41 @@ Matched GT event 4: Displayed text recommending tire rotation every 7500 miles
     Similarity score: 0.656
 Matched GT event 8: Branding end screen of GMC's tire replacement service
     Predicted: The video concludes with a title screen displaying GMC Certified Service and Replacing Your Tires
-    Similarity score: 0.712
+    Similarity score: 0.712Model: HuggingFaceTB/SmolVLM2-256M-Video-Instruct
+Video: 5
+Prompt given:
+
+Describe all the key events in the video.
+Do not repeat events.
+
+Chunk Length: 111
+Max Tokens used (per Chunk): 400
+Number of Chunks: 1
+Number of Frames (per Chunk): 32
+Threshold: 0.5
+
+=== METRICS ===
+Precision: 1.000
+Recall:    0.111
+F1-score:  0.200
+Hallucinated events number: 0
+Correctly predicted events number: 1
+Missed out events number: 8
+
+=== PREDICTED EVENTS ===
+Predicted event 0: GMC Certified Service, replacing your tires
+
+=== MISSED EVENTS ===
+Missed event 1: Person talking in front of a GMC car
+Missed event 2: Technician working on a car tire
+Missed event 3: Comparison of a tire with a good and bad tread
+Missed event 4: Displayed text recommending tire rotation every 7500 miles
+Missed event 5: Demonstration of checking tire tread depth using a tool and a coin
+Missed event 6: Tire spinning while mounted
+Missed event 7: People interacting near a car
+Missed event 8: Branding end screen of GMC's tire replacement service
+
+=== MATCHED EVENTS ===
+Matched GT event 0: Branding start screen of GMC's tire replacement service
+    Predicted: GMC Certified Service, replacing your tires
+    Similarity score: 0.643
