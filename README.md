@@ -26,13 +26,13 @@ seperate_notebooks/
 ## Repository Structure
 
 ```text
-TVSum/                 Input videos used in the assignment.
-annotations/           Human annotations for the videos.
-models/                Pretrained model checkpoints.
-vlm_outputs/           Raw VLM experiment outputs.
-vlm_final_prediction/  Final event predictions 
-outputs/               retrieval and Summary results
-seperate_notebooks/    Original separate notebooks 
+TVSum/                    Input videos used in the assignment.
+annotations/              Human annotations for the videos.
+models/                   Pretrained model checkpoints.
+vlm_outputs/              Raw VLM experiment outputs.
+vlm_final_prediction/     Final event predictions 
+outputs/                  Retrieval and Summary results
+seperate_notebooks/       Original separate notebooks 
 end_to_end_pipeline.ipynb
 requirements.txt
 ```
@@ -46,7 +46,6 @@ Install the required packages with:
 ```powershell
 pip install -r requirements.txt
 ```
-
 
 ## How to Run
 
