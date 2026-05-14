@@ -9,7 +9,7 @@ The goal of the project is to summarize videos from the TVSum dataset. We first 
 The complete pipeline is in:
 
 ```text
-end_to_end_pipeline.ipynb
+notebooks/end_to_end_pipeline.ipynb
 ```
 
 This notebook contains both main parts of the project:
@@ -20,26 +20,28 @@ This notebook contains both main parts of the project:
 The older separated notebooks are kept in:
 
 ```text
-seperate_notebooks/
+notebooks/archive/
 ```
 
 ## Repository Structure
 
 ```text
-TVSum/                    Input videos used in the assignment.
-annotations/              Human annotations for the videos.
-models/                   Pretrained model checkpoints.
-vlm_outputs/              Raw VLM experiment outputs.
-vlm_final_prediction/     Final event predictions 
-outputs/                  Retrieval and Summary results
-seperate_notebooks/       Original separate notebooks 
-end_to_end_pipeline.ipynb
-requirements.txt
+data/TVSum/                              Input videos used in the assignment.
+data/annotations/                        Human annotations for the videos.
+models/                                  Pretrained model checkpoints.
+cache/                                   Generated video chunks.
+outputs/intermediate/vlm_outputs/        Raw VLM experiment outputs.
+outputs/intermediate/vlm_outputs/vlm_final_prediction/
+                                         Final Step 3 event predictions.
+outputs/intermediate/retrieval_outputs/  Step 4 retrieval CSV outputs.
+outputs/final/                           Final text and video summaries.
+notebooks/                               Main and archived notebooks.
+requirements.txt                         Python package requirements.
 ```
 
 ## Setup
 
-We used Python with Jupyter Notebook.
+Use Python `<3.10`, for example Python 3.9. The Python version requirement is documented here instead of in `requirements.txt` because `pip` cannot install or enforce the interpreter version from that file.
 
 Install the required packages with:
 
@@ -49,17 +51,17 @@ pip install -r requirements.txt
 
 ## How to Run
 
-1. Open `end_to_end_pipeline.ipynb`.
+1. Open `notebooks/end_to_end_pipeline.ipynb`.
 2. Run the setup cells first.
 3. Run the Step 3 cells to generate or inspect the VLM event predictions.
 4. Run the Step 4 cells to perform moment retrieval.
-5. Check the final text and video summaries in the `outputs/` folder.
+5. Check the final text and video summaries in `outputs/final/`.
 
 The final summary files are named like this:
 
 ```text
-outputs/video_5_retrieval_summary.txt
-outputs/video_5_retrieval_summary.mp4
+outputs/final/video_5_retrieval_summary.txt
+outputs/final/video_5_retrieval_summary.mp4
 ```
 
 The same format is used for videos 6, 7, and 8.
